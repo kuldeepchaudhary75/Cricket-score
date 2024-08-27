@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: white;
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image: url("./public/images/dd.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  font-weight: 500;
+}
+
+.team-name-A,
+.team-name-B,
+.vs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  padding: 20px;
+}
+.vs {
+  background: rgb(81, 203, 81);
+  border-radius: 50%;
+  width: 60px;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}
+.box {
+  width: 10vw;
+  height: 10vw;
+  background-color: rgba(255, 255, 255, 0.904);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(50px);
+  z-index: -1;
+}
+.bg-box {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.347);
+  z-index: -1;
+}
+
+.Extra {
+  /* color: #aec5eb; */
+  color: lightskyblue;
+}
+.Extra5 {
+  color: rgba(0, 0, 0, 0.925);
+}
+.Extra6 {
+  color: #240046;
+}
+.Extra2 {
+  /* color: #1d2d44; */
+  color: lightblue;
+}
+.Extra4 {
+  color: #660708;
+}
+
+.Extra7 {
+  color: #98c9a3;
+}
